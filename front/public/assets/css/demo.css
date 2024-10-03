@@ -1,0 +1,133 @@
+.dempp{
+    /* background-image: url(/assets/img/hero/belly-dance.jpg); */
+    background-image: url(/assets/img/hero/belly_dance.jpeg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    /* color: white; */
+}
+.dempp h2{
+    color: white;
+    padding-top: 90px;
+}
+.dempp p{
+    color: white;
+}
+
+ /* Bally dance workshop */
+
+ .technique-text h4{
+    text-align: center;
+ }
+
+
+ /* Bally dance workshop */
+
+
+ .whatapp{
+    position: fixed;
+    /* z-index: 1; */
+    bottom: 40px;
+    right: 3%;
+    background: #25d366;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 17px 0;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+ }
+ .whatapp i{
+    color: white;
+ }
+
+
+ .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f1f1f1; */
+    
+  }
+  
+  .login-form {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../img/ring11.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left top;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 35px;
+  }
+
+  .forgot a{
+    float: right;
+    font-size: 13px;
+  }
+
+
+  
+  .radio-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .gender-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gender-option input {
+    margin-right: 8px;
+  }
+  
+  .gender-option input radio{
+    height: 26px;
+  }
+
+
+
+@media (max-width: 1024px) {
+  
+  .bgring3 {
+    background-image: none !important;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 4% 90%;
+}
+.bgring2::after {  
+  background-image: none !important;
+}
+
+}
+.bellymon {
+  height: 110px;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
